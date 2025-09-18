@@ -11,7 +11,6 @@ class Person {
         std::string email;
 
     public:
-        // setters & getters
         void setName(std::string n);
         std::string getName() const;
 
@@ -24,11 +23,9 @@ class Person {
         void setEmail(std::string e);
         std::string getEmail() const;
 
-        // constructors
         Person();
         Person(std::string n, int a, std::string i, std::string e);
         Person(const Person& Data);
 
-        // destructor
         ~Person();
 };
