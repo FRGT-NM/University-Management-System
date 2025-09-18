@@ -12,11 +12,9 @@ class Course {
         std::vector<Student*> enrolledStudents;
 
     public:
-        // methods
         void addToEnrolledStudents(Student* s);
         void removeFromEnrolledStudent(size_t studentIndex);
         void displayEnrolledStudents() const;
 
-        // destructor
         ~Course();
 };
