@@ -9,14 +9,11 @@ class Student : public Person {
         int size;
 
     public:
-        // constructors
         Student(int n);
         Student(const Student& Data);
 
-        // destructor
         ~Student();
 
-        // methods
         double calculateGPA();
         void addGrade(int courseIndex, double grade);
 };
