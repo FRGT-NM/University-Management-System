@@ -1,6 +1,5 @@
 #include "person.h"
 
-// setters & getters
 void Person::setName(std::string n) { name = n; }
 std::string Person::getName() const { return name; }
 
@@ -13,7 +12,6 @@ std::string Person::getId() const { return id; }
 void Person::setEmail(std::string e) { email = e; }
 std::string Person::getEmail() const { return email; }
 
-// constructors
 Person::Person() 
     : name(""), age(0), id(""), email("") {}
 
@@ -23,5 +21,4 @@ Person::Person(std::string n, int a, std::string i, std::string e)
 Person::Person(const Person& Data)
     : name(Data.name), age(Data.age), id(Data.id), email(Data.email) {}
 
-// destructor
 Person::~Person() {}
