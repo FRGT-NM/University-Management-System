@@ -29,7 +29,7 @@ This repo does **not** include a `main.cpp` with test cases.
 Example workflow:
 ```bash
 # clone the repo
-git clone https://github.com/<your-username>/University_Management_System.git
+git clone https://github.com/FRGT-NM/University_Management_System.git
 cd University_Management_System
 
 # create build directory
