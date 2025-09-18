@@ -1,6 +1,5 @@
 #include "student.h"
 
-// constructor
 Student::Student(int n) {
     size = n;
     numCourses = n;
@@ -11,7 +10,6 @@ Student::Student(int n) {
     }
 }
 
-// copy constructor
 Student::Student(const Student& Data) {
     size = Data.size;
     numCourses = Data.numCourses;
@@ -22,12 +20,10 @@ Student::Student(const Student& Data) {
     }
 }
 
-// destructor
 Student::~Student() {
     delete[] grades;
 }
 
-// methods
 double Student::calculateGPA() {
     double sum = 0.0;
     for (int i = 0; i < size; i++) {
